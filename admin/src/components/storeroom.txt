@@ -1,0 +1,18 @@
+userList.map((userList)=>{
+
+            if(userList[uid]===uid){
+                return{
+                    
+                    ...userList,
+                    fname:funame
+                    
+                } 
+            }
+            return userList;
+        })
+        console.log()
+
+        // localStorage.setItem("userLSt",JSON.stringify(userList))
+        window.location.reload();
+        
+        console.log(uid)

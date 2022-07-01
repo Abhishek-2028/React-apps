@@ -1,0 +1,223 @@
+.div-con1{
+    padding-top: 30px;
+    width:100%;
+    height:100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("C:\Users\DELL\Desktop\tenetgym\src\images\5t.jpg");
+    text-align: center;
+}
+.appoin{
+    text-align: center;
+    height: 600px;
+    width: 550px;
+    margin-top:-1rem ;
+    margin-left:10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow:5px 10px 10px 5px rgba(0, 0, 0, 0.7);
+}
+.appoin h1{
+    padding: 0.8rem;
+      color:white;
+  }
+
+  .btn1 {
+    background-color: rgb(0,0,0,0);
+    border: 2px solid #555555;
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    margin:10px;
+    margin-top: 2.2rem;
+    width: 80%;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .btn1:hover {
+    background-color: rgb(85, 85, 85,0);
+    color: white;
+    background-color: #555555;
+  }
+
+.appoin .fname{  
+
+    font-size: 15px;
+    width: 80%;
+    height: 2.3rem;
+    color:white;
+    margin-top: 1.5rem ;
+    background-color: rgb(85, 85, 85,0);
+    border-bottom: 1.5px solid white;
+}
+.appoin .email{  
+
+    font-size: 15px;
+    width: 80%;
+    height: 2.3rem;
+    color:white;
+    margin-top: 1.5rem ;
+    background-color: rgb(85, 85, 85,0);
+    border-bottom: 1.5px solid white;
+}
+.appoin .phone{  
+
+    font-size: 15px;
+    width: 80%;
+    height: 2.3rem;
+    color:white;
+    margin-top: 1.5rem ;
+    background-color: rgb(85, 85, 85,0);
+    /* margin-bottom: 1.5rem; */
+    border-bottom: 1.5px solid white;
+}
+
+.appoin .ph{
+    margin-bottom: 2.5rem; 
+}
+.appoin .ph1{
+    margin-bottom: 1rem; 
+}
+
+.appoin #ge{
+    color:white;
+    margin-right:230px;
+}
+
+#ge  #male{
+    margin-left:20px;
+    
+}
+#ge #female{
+    margin-left:20px;
+}
+#d{
+    margin-left: 54px;
+}
+
+#datepi{
+    color:white;
+    margin-right:140px;
+    display: flex;
+    /* border: 1px solid white; */
+    /* margin-left:-10px; */
+}
+
+#datetime{
+background-color: rgb(85, 85, 85);
+color:white;
+font-size: 17px;
+border-radius: 10px;
+margin-left: -120px;
+padding: 3px;
+width: 50%;
+text-align: center;
+}
+
+/* .DatePicker{
+    background-color: rgb(85, 85, 85);
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;   
+} */
+
+.timepi{
+    color:rgb(255, 255, 255);
+    margin-right:230px; 
+}
+.ti{
+background-color: rgb(85, 85, 85);
+/* color:rgb(0, 0, 0); */
+font-size: 17px;
+/* border-radius: 10px; */
+margin-left: 10px;
+padding: 2.5px;
+}
+
+@media(max-width:639px){
+    .appoin{
+        width: 80%;
+    }
+}
+@media(max-width:600px){
+    .appoin #ge{
+        margin-right: 140px;
+    }
+    #timepi{
+        margin-right: 200px;
+    }
+    #datetime{
+        margin-right: -100px;
+    }
+    
+}
+
+
+
+@media(max-width:563px){
+    .appoin #ge{
+        margin-right: 100px;
+    }
+    #timepi{
+        margin-right: 160px;
+    }
+    #datetime{
+        margin-right: -80px;
+    }
+   
+    
+}
+@media(max-width:582px){
+    .appoin #ge{
+        margin-right: 70px;
+    }
+    #timepi{
+        margin-right: 130px;
+    }
+    #datetime{
+        margin-right: -60px;
+        
+    }
+}
+
+@media(max-width:554px){
+    #datetime{
+        margin-left: 2px;
+
+        width: 70%;
+    }
+
+}
+@media(max-width:470px){
+    #datetime{
+        margin-right: 2px;
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+@media(max-width:424px){
+    .appoin #ge{
+        margin-right: 50px;
+    }
+    #timepi{
+        margin-right: 130px;
+    }
+    #datetime{
+        margin-right: -40px;
+    }
+    
+}
+
+
+
+
+
+  
+  
