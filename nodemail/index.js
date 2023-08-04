@@ -13,8 +13,8 @@ app.post("/mail",(res)=>{
             port: 587,
             requireTLS:'true',
             auth:{
-                user:'abhishekkolaskar2001@gmail.com',
-                pass:'astark@079'
+                user:'',
+                pass:''
             }   
         })
 
@@ -35,14 +35,14 @@ app.post("/mailreject",(res)=>{
         port: 587,
         requireTLS:'true',
         auth:{
-            user:'abhishekkolaskar2001@gmail.com',
-            pass:'astark@079'
+            user:'',
+            pass:''
         }   
     })
 
     transpoter.sendMail({
-        from:'abhishekkolaskar2001@gmail.com',
-        to:'dhananjaykolaskar2001@gmail.com',
+        from:'',
+        to:'',
         subject:'appointment rejection mail',
         text:'your appointment is rejected'
     }).then(()=>{console.log('mail send')})
